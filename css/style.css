@@ -1,0 +1,84 @@
+body, html {
+  background-image: url('../images/mapOfWorld.jpg');
+  height:100% ;
+  margin: 0;
+  height: 100%; 
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #cc0f12;
+}
+.header-container{
+  text-align: center;
+  padding: 17px;
+  
+}
+.dashboard {
+  background-color:#2860902e;
+  height: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+.my-button{
+  height: 72px;
+  width: 18%;
+}
+.guess-container{
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+.chances-container{
+  height: 135px;
+  width: 25%;
+  background-color: #bedf1494;
+}
+.user-input-container{
+  height: 134px;
+  width: 100%;
+}
+#userChancesCounter{
+  text-align: center;
+  font-size: 90px;
+}
+.chances-container-1{
+  text-align: center;
+}
+#chances-left{
+  font-size: 31px;
+}
+#country{
+  text-align: center;
+  padding: auto;
+  height: 90px;
+  width: 100%;
+  margin: auto;
+}
+#userInputLetter{
+  width: 106px;
+  height: 72%;
+  font-size: 40px;
+  background-color: #cc0f12;
+  border: black;
+}
+.country-name{
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+.input-label{
+  letter-spacing: 1px;
+  font-size: 31px;
+  margin-right: 4px;
+}
+
+#mainTitle{
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: -22px;
+}
+.resetTitle{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+

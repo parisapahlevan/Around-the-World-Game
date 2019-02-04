@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </head>
+  <body onload="startTheGame()" style="font-family: 'Indie Flower', cursive; color: #cc0f12; font-weight: 900;">
+    <div class="header-container">
+      <p id="mainTitle">AROUND THE WORLD</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+          <div class="button-container">
+            <h3 class="resetTitle">RESET COUNTRY</h3>
+            <div class="button-wrapper">
+              <button type="button" class="btn btn btn-primary btn-lg my-button myStyle"  style="background-color:#cc0f12"  onclick="startTheGame()">CLICK ME !</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="guess-container">
+            <p class="country-name">COUNTRY NAME</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="guess-container">
+            <p  class="country-name" id="country"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="guess-container">
+            <form>
+              <div class="user-input-container">
+                <label class="input-label">Enter your letter here: </label>
+                <input type="text" id="userInputLetter" autocomplete="off" onkeyup="checkGameStatus()" oninput="checkAnswer()"/>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <div class="chances-container-1">
+            <p id="chances-left">Chances left : </p>
+            <div class="div">
+                    <span id="userChancesCounter">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/game.js" type="text/javascript"></script>
+  </body>
+</html>

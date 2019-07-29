@@ -1,4 +1,4 @@
-# Around-the-World-Game 
+# Around-the-World-Game :earth_africa:
 This game allows the user to guess the country name after randomly generating a secrete one
 Used key events to listen for the letters that your players will type.
 Press any key to get started!

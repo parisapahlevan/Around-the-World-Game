@@ -14,3 +14,6 @@ After the user wins/loses the game should automatically choose another word and 
 <img width="1425" alt="Screen Shot 2019-07-29 at 3 40 13 PM" src="https://user-images.githubusercontent.com/33634179/62077095-439f0e00-b217-11e9-8aef-8a74cf9fb37c.png">
 
 ## Built with
+* [HTML5](https://html5test.com)
+* [CSS3](https://www.w3schools.com/css)
+* [JavaScript](https://www.javascript.com)
